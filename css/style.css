@@ -1,0 +1,58 @@
+.text-center{
+    text-align:center;
+    background-image:linear-gradient(green,lightgreen);
+    background-clip: text;
+    color:transparent;
+}
+.row{
+    display:table;
+    margin:auto;
+}
+.button{
+    padding:20px;
+    margin:5px;
+    border:2px ridge black;
+    border-radius:8px;
+    cursor:pointer;
+    /* size: 20px; */
+    background-image:linear-gradient(green,lightgreen);
+    font-weight:bold;
+    /* color:transparent; */
+    /* background-clip:text; */
+}
+.button:hover{
+    background-image:linear-gradient(rgb(7, 74, 7),lightgreen); 
+}
+.button:active{
+    background-image:linear-gradient(rgb(7, 74, 7),rgb(58, 88, 58)); 
+}
+.input{
+    font-size:20px;
+    height:8vh;
+    width:190px;
+    margin:10px;
+    text-align:right;
+    border:2px ridge black;
+    border-radius:6px;
+    /* border-style:none; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:lightgreen;
+    font-weight:bold;
+}
+body{
+    background-image:linear-gradient(black,grey);
+    background-repeat: no-repeat;
+    height:100vh;
+    /* width:fit-content; */
+
+}
+.cw{
+    column-width:8px;
+}
+.zero{
+    width:135px;
+}
+.pad{
+    width:62px;
+}
+
